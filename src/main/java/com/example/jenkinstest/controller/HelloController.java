@@ -14,7 +14,6 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String hello(){
-        System.out.println("*********Bingo**********");
-        return "hello world";
+        return "龙哥，龟头哥，一起约着去捏捏脚啊";
     }
 }
