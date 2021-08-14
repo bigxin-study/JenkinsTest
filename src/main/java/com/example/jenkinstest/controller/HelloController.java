@@ -14,6 +14,6 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String hello(){
-        return "我有一只小毛驴，我从来也不骑";
+        return "hello world";
     }
 }
